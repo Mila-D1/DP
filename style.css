@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:black;
+}
+header {
+    margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+    height: 80px;
+    box-shadow: 0 0 30px #FF00FF;
+    margin: 0px auto;
+    border-radius: 0px 0px 20px 20px;
+}
+h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 10em;
+    padding-top: 15px;
+}
+.task_name {
+    font-size: 20px;
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.task_text {
+    font-size: 17px;
+    color: white;
+    height: 60px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 23px;
+    line-height: 25px;
+}
+.question {
+    width: 230px; 
+    margin: 0 auto;
+    margin-top: 125px;
+}
+.btn {
+    width: 230px;
+    height: 50px;
+    background: 0 0;
+    border: 4px #FF00FF solid;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0px #ff00ff, inset 0 0 10px #ff00ff;
+    transition: 0.3s;
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+}
+.btn:hover {
+    box-shadow: 0 0 35px 0px #ff00ff, inset 0 0 10px #ff00ff;
+    cursor: pointer;
+}
+.box { 
+    text-align: center; 
+    margin-top: 65px;
+}
+.centered { 
+    display: inline-block; 
+    margin: 0; 
+}
+.chess-board { 
+    border-spacing: 0; 
+    border-collapse: collapse; 
+}
+.chess-board th { 
+    padding: .5em; 
+    color: white;
+}
+.chess-board td { 
+    border: 1px solid; 
+    width: 5em; 
+    height: 5em; 
+    text-align: center; 
+    vertical-align: middle; 
+}
+.chess-board .white { 
+    background: #E6ECEA; 
+}
+.chess-board .magenta { 
+    background: #cd1acd; 
+}
+.queen {
+    font-size: 65px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="favicon/favicon.ico" rel="shortcut icon"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Zadanie</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Zadanie rekrutacyjne</h1>
+        </div>
+    </header>
+    <main>
+        <section class="first task"></section>
+
+                <ol class="task_name">
+                    <li>Aplikacja:</li>
+                </ol>
+                <ul class="task_text">
+                    <li>Na podstawie wprowadzonych danych: liczba kolumn oraz wierszy, wygeneruj szachownice przedstawiajaca prostokat</li>
+                    <li>Na srodku planszy umiesc lazik (obrazek), ktory bedzie mogl poruszac sie w 4 strony (za pomoca klawiatury lub buttonow na ekranie), każdy ruch powinien przemieszczać łazika
+                    </li>
+                    <li>Zapis ruchu łazika powinien być dostępny na żądanie (button pokaż historię) do wyświetlenia na froncie</li>
+                </ul>
+                <form class="question"> 
+                    <input class="btn" type="button" onclick="createTable()" value="Create the table"> 
+                </form>
+                <div class="box">
+                    <div class="centered">
+                        <table id="board" class="chess-board"></table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
